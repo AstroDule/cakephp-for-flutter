@@ -10,6 +10,10 @@ The framework source code can be found here: [cakephp/cakephp](https://github.co
 
 ## Installation
 
+Use PHP 8.2 or 8.3 with the `intl` and `mbstring` extensions. Install the
+locked dependencies with `composer install`; CakePHP 4.5.12 or later in the
+4.5 series is required for the security fixes.
+
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
 2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
 
